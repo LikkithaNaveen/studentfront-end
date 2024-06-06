@@ -147,7 +147,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
           value={desc} onChange={(e)=>{setDesc(e.target.value)}} 
         ></textarea>
         
-        <button  onClick={updateproduct} type="submit"><Link to={'/taskassign/'}>Update</Link></button>
+        <button  onClick={updateproduct} type="submit"><Link  class='buttonlink' to={'/taskassign/'}>Update</Link></button>
       </form>
     </div>
   );
