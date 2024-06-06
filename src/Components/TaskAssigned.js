@@ -225,7 +225,7 @@ const TaskAssigned = () => {
           <div>
             <br></br>
 
-            <button type="submit" className='text-center buttonstyle' onClick={taskproduct}><Link to={'/'}>Submit</Link></button>
+            <button type="submit" className='text-center buttonstyle' onClick={taskproduct}><Link  class='buttonlink' to={'/'}>Submit</Link></button>
 
           </div><br></br><br></br><br></br><br></br><br></br>
         </form>
@@ -266,7 +266,7 @@ const TaskAssigned = () => {
                     <td>{item.assigndate}</td>
                     <td>{item.completedate}</td>
                     <td>{item.desc}</td>
-                    <td><button class='buttonstyledelupd' type="submit" onClick={() => productdelete(item._id)}>Delete</button>
+                    <td><button class='buttonstyledelupd' type="submit"  onClick={() => productdelete(item._id)}>Delete</button>
                       <button class='buttonstyledelupd'><Link style={{ textDecoration: 'none', color: 'white' }}
                         to={"/updatetask/" + item._id}>Update</Link></button></td>
                   </tr>

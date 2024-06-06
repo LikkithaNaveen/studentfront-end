@@ -139,7 +139,7 @@ import DatePicker from "react-datepicker";
           <div>
             <br></br>
             
-      <button type="submit" className='text-center buttonstyle' onClick={Updatetask}><Link to={'/taskassign/'}>Update</Link></button>
+      <button type="submit" className='text-center buttonstyle' onClick={Updatetask}><Link  class='buttonlink' to={'/taskassign/'}>Update</Link></button>
 </div><br></br><br></br><br></br><br></br>
 
                    

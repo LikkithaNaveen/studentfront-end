@@ -248,17 +248,16 @@
 }
 
 .form button{
-  width: 100%;
-  padding: 30px;
+  width: 40%;
+  padding: 20px;
   background-color: rgb(12, 71, 95);
   color: var(--text);
   border: none;
   border-radius: 5px;
   cursor: pointer;
-
-
-
-  
+  border-radius: 15px;
+  margin-left: 420px;
+  text-decoration:none;
 }
 .invalid-input{
   width: 100%;
@@ -1227,9 +1226,7 @@ tbody {
     text-transform: uppercase;
     cursor: pointer;
 }
-Link{
-  color: white;
-}
+
 .totalpage{
   display: grid;
   grid-template-rows: auto auto auto auto auto auto;
@@ -1284,7 +1281,9 @@ Link{
   transform: translate(-50%, -50%);
 }
 
-
+.buttonlink{
+  text-decoration: none;
+}
 
 
 
