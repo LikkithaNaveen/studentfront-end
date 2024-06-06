@@ -98,7 +98,7 @@ const AddLeave = () => {
           <div>
             <br></br>
 
-            <button type="submit" className='text-center buttonstyle' onClick={addleavedetails}><Link to={'/'}>Submit</Link></button>
+            <button type="submit" className='text-center buttonstyle' onClick={addleavedetails}><Link class='buttonlink' to={'/'}>Submit</Link></button>
 
           </div><br></br><br></br><br></br><br></br><br></br>
         </form>
