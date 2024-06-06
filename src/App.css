@@ -247,13 +247,15 @@
 }
 
 .form button{
-  width: 100%;
-  padding: 30px;
-  background-color:  rgb(12, 71, 95);
+   width: 40%;
+  padding: 20px;
+  background-color: rgb(12, 71, 95);
   color: var(--text);
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  border-radius: 15px;
+  margin-left: 420px;
 }
 .invalid-input{
   width: 100%;
