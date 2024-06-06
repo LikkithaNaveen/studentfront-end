@@ -213,6 +213,7 @@
   flex-wrap: wrap;
   justify-content:space-between;
   margin-left: 150px;
+  color: white;
  
 }
 
@@ -221,7 +222,7 @@
 .form select {
   padding: 20px;
   background-color: var(--bg);
-  color: black;
+  color: white;
   border: 2px solid #2e374a;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -231,14 +232,17 @@
 .form input{
   width: 45%;
   border: 1px solid white;
+  color: white;
 }
 .form select {
   width: 48%;
   border: 1px solid white;
+  color: white;
 }
 .form textarea{
   width: 100%;
   border: 1px solid white;
+  color: white;
 }
 
 .form button{
@@ -260,6 +264,7 @@
   height:25px;
   font-size: large;
   color:red;
+  color:white;
 }
 .Personaldetails{
   text-align: center;
