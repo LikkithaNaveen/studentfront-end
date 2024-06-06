@@ -106,7 +106,7 @@ const AddQueries = () => {
 <div>
   <br></br>
 
-  <button type="submit" className='text-center buttonstyle' onClick={addqueriesproduct}><Link  class='buttonlink' to={'/'}>Submit</Link></button>
+  <button type="submit" className='text-center buttonstyle' onClick={addqueriesproduct}><Link class='buttonlink' to={'/'}>Submit</Link></button>
 
 </div><br></br><br></br><br></br><br></br><br></br>
 </form>
