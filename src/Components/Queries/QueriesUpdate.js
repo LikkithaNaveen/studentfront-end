@@ -120,7 +120,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
           <div>
             <br></br>
 
-            <button type="submit" className='text-center buttonstyle' onClick={UpdateQueries}><Link to='/addqueries/'> Update</Link></button>
+            <button type="submit" className='text-center buttonstyle' onClick={UpdateQueries}><Link class='buttonlink' to='/addqueries/'> Update</Link></button>
 
           </div><br></br><br></br><br></br><br></br><br></br>
           </form>
