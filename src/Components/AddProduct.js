@@ -129,7 +129,7 @@ import { Link } from 'react-router-dom';
        
         <div>
         <button onClick={addProduct} className='text-center buttonstyle1'>
-          <Link to={'/personaldetails/'}>Submit</Link>
+          <Link   class='buttonlink' to={'/personaldetails/'}>Submit</Link>
           </button>
         </div>
       </form>
