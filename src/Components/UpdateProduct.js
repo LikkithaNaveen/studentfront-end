@@ -91,10 +91,10 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
 
         <select name="cat" id="cat" 
         value={gender} onChange={(e)=>{setGender(e.target.value)}}>
-         <option value="general">Choose Gender</option>
-          <option value="Female">Female</option>
-          <option value="Male">Male</option>
-          <option value="others">others</option>
+         <option value="general"> Choose Gender</option>
+          <option value="Female"  className='bg-black'>Female</option>
+          <option value="Male"  className='bg-black'>Male</option>
+          <option value="others"  className='bg-black'>others</option>
         </select>
         
 
@@ -115,14 +115,14 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
         ></textarea>
        
 
-        <select name="cat" id="cat"
+        <select name="cat" id="cat" className='text-white'
         value={category} onChange={(e)=>{setCategory(e.target.value)}}>
-          <option value="general">Choose a Category</option>
-          <option value="Java developer">Java developer</option>
-          <option value="Python developer">Python developer</option>
-          <option value="Front-End Developer">Front-End Developer</option>
-          <option value="Back-End Developer">Back-End Developer</option>
-          <option value="Full stack Developer">Full stack Developer</option>
+          <option value="general" className='bg-black'>Choose a Category</option>
+          <option value="Java developer" className='bg-black'>Java developer</option>
+          <option value="Python developer"className='bg-black'>Python developer</option>
+          <option value="Front-End Developer"className='bg-black'>Front-End Developer</option>
+          <option value="Back-End Developer"className='bg-black'>Back-End Developer</option>
+          <option value="Full stack Developer"className='bg-black'>Full stack Developer</option>
         </select>
         
         
@@ -147,7 +147,7 @@ import { Link, useNavigate, useParams } from 'react-router-dom';
           value={desc} onChange={(e)=>{setDesc(e.target.value)}} 
         ></textarea>
         
-        <button  onClick={updateproduct} type="submit"><Link  class='buttonlink' to={'/taskassign/'}>Update</Link></button>
+        <button  onClick={updateproduct} type="submit"><Link to={'/taskassign/'}>Update</Link></button>
       </form>
     </div>
   );
