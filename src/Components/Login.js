@@ -21,7 +21,7 @@ const Login = () => {
 },[])
 
   const handlelogin=async()=>{
-    console.warn(email,password)
+    
     let result=await fetch('https://studentdashboard-new-2.onrender.com/login',{
       method:"post",
       body:JSON.stringify({email,password}),

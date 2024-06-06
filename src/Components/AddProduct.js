@@ -41,18 +41,20 @@ import { Link } from 'react-router-dom';
 
     return (
     <div className="container">
+
+
         <h1 className='text-white pb-4'> Add Personal Details</h1><br></br>
       <form  className="form">
-        <input type="text" placeholder="Name" name="Name"  
+        <input type="text" placeholder="Name" name="Name"  className='text-white'
          value={name} onChange={(e)=>{setName(e.target.value)}} required />
         {error && !name && <span class='invalid-input'>Enter valid name</span>}
 
-        <input type="text" placeholder="Email" name="Email" 
+        <input type="text" placeholder="Email" name="Email" className='text-white'
         value={email} onChange={(e)=>{setEmail(e.target.value)}}required />
 
         {error && !email && <span class='invalid-input'>Enter valid Email</span>}
 
-        <input type="text" placeholder="Age" name="Age" 
+        <input type="text" placeholder="Age" name="Age" className='text-white'
         value={age} onChange={(e)=>{setAge(e.target.value)}}required />
 
         {error && !age && <span class='invalid-input'>Enter Age</span>}
