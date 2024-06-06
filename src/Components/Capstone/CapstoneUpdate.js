@@ -117,7 +117,7 @@ import { useNavigate, useParams } from 'react-router-dom';
           <div>
             <br></br>
 
-            <button type="submit" className='text-center buttonstyle' onClick={UpdateCapstone}>Submit</button>
+            <button type="submit" className='text-center buttonstyle' onClick={UpdateCapstone}><Link  class='buttonlink' to={'/'}>Submit</Link></button>
 
           </div><br></br><br></br><br></br><br></br><br></br>
         </form>
